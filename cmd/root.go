@@ -16,10 +16,6 @@ var root = &cobra.Command{
 	Use:   "syn",
 	Short: "Syn gives you synonyms of a word from the command line",
 	Long:  "",
-	RunE: func(cmd *cobra.Command, args []string) error {
-		println("ran from root")
-		return nil
-	},
 }
 
 func Execute() {
